@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the VIES Hall of Fame feature.
+ */
+
+include_once 'vies_hall_of_fame.features.inc';
