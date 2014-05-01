@@ -30,3 +30,5 @@ features[variable][] = menu_parent_vies_hall_of_fame
 features[variable][] = node_options_vies_hall_of_fame
 features[variable][] = node_preview_vies_hall_of_fame
 features[variable][] = node_submitted_vies_hall_of_fame
+
+files[] = vies_hall_of_fame.migrate.inc
