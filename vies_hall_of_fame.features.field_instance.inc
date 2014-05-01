@@ -60,6 +60,49 @@ function vies_hall_of_fame_field_default_field_instances() {
     ),
   );
 
+  // Exported field_instance: 'node-vies_hall_of_fame-field_featured_categories'
+  $field_instances['node-vies_hall_of_fame-field_featured_categories'] = array(
+    'bundle' => 'vies_hall_of_fame',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'taxonomy',
+        'settings' => array(),
+        'type' => 'taxonomy_term_reference_link',
+        'weight' => 3,
+      ),
+      'featured' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_featured_categories',
+    'label' => 'Categories',
+    'required' => 0,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'options',
+      'settings' => array(),
+      'type' => 'options_buttons',
+      'weight' => 5,
+    ),
+  );
+
   // Exported field_instance: 'node-vies_hall_of_fame-field_featured_image'
   $field_instances['node-vies_hall_of_fame-field_featured_image'] = array(
     'bundle' => 'vies_hall_of_fame',
@@ -124,6 +167,56 @@ function vies_hall_of_fame_field_default_field_instances() {
         'progress_indicator' => 'throbber',
       ),
       'type' => 'image_image',
+      'weight' => 4,
+    ),
+  );
+
+  // Exported field_instance: 'node-vies_hall_of_fame-field_quote'
+  $field_instances['node-vies_hall_of_fame-field_quote'] = array(
+    'bundle' => 'vies_hall_of_fame',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 4,
+      ),
+      'featured' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_quote',
+    'label' => 'Quote',
+    'required' => 0,
+    'settings' => array(
+      'linkit' => array(
+        'enable' => 0,
+        'insert_plugin' => '',
+      ),
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'rows' => 5,
+      ),
+      'type' => 'text_textarea',
       'weight' => 3,
     ),
   );
@@ -182,7 +275,9 @@ function vies_hall_of_fame_field_default_field_instances() {
   // Included for use with string extractors like potx.
   t('Accomplishment');
   t('Body');
+  t('Categories');
   t('Image');
+  t('Quote');
 
   return $field_instances;
 }

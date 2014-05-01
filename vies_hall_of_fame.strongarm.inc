@@ -44,13 +44,13 @@ function vies_hall_of_fame_strongarm() {
     'extra_fields' => array(
       'form' => array(
         'metatags' => array(
-          'weight' => '4',
+          'weight' => '6',
         ),
         'title' => array(
           'weight' => '0',
         ),
         'path' => array(
-          'weight' => '5',
+          'weight' => '7',
         ),
       ),
       'display' => array(),
