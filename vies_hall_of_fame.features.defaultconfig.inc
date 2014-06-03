@@ -26,6 +26,7 @@ function vies_hall_of_fame_defaultconfig_user_default_permissions() {
     'name' => 'create vies_hall_of_fame content',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
     ),
     'module' => 'node',
   );
@@ -35,6 +36,7 @@ function vies_hall_of_fame_defaultconfig_user_default_permissions() {
     'name' => 'delete any vies_hall_of_fame content',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
     ),
     'module' => 'node',
   );
@@ -44,6 +46,7 @@ function vies_hall_of_fame_defaultconfig_user_default_permissions() {
     'name' => 'delete own vies_hall_of_fame content',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
     ),
     'module' => 'node',
   );
@@ -53,6 +56,7 @@ function vies_hall_of_fame_defaultconfig_user_default_permissions() {
     'name' => 'edit any vies_hall_of_fame content',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
     ),
     'module' => 'node',
   );
@@ -62,6 +66,7 @@ function vies_hall_of_fame_defaultconfig_user_default_permissions() {
     'name' => 'edit own vies_hall_of_fame content',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
     ),
     'module' => 'node',
   );
