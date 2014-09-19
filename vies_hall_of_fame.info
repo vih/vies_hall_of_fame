@@ -4,6 +4,7 @@ core = 7.x
 package = VIES
 version = 7.x-0.1
 project = vies_hall_of_fame
+dependencies[] = colorbox
 dependencies[] = ctools
 dependencies[] = features
 dependencies[] = image
