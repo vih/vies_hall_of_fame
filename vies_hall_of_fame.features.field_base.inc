@@ -17,14 +17,7 @@ function vies_hall_of_fame_field_default_field_bases() {
     'deleted' => 0,
     'entity_types' => array(),
     'field_name' => 'field_quote',
-    'foreign keys' => array(
-      'format' => array(
-        'columns' => array(
-          'format' => 'format',
-        ),
-        'table' => 'filter_format',
-      ),
-    ),
+    'foreign keys' => array(),
     'indexes' => array(
       'format' => array(
         0 => 'format',
@@ -44,14 +37,7 @@ function vies_hall_of_fame_field_default_field_bases() {
     'deleted' => 0,
     'entity_types' => array(),
     'field_name' => 'field_vies_accomplishment',
-    'foreign keys' => array(
-      'format' => array(
-        'columns' => array(
-          'format' => 'format',
-        ),
-        'table' => 'filter_format',
-      ),
-    ),
+    'foreign keys' => array(),
     'indexes' => array(
       'format' => array(
         0 => 'format',
