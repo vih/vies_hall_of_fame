@@ -8,6 +8,7 @@ dependencies[] = colorbox
 dependencies[] = ctools
 dependencies[] = features
 dependencies[] = image
+dependencies[] = migrate
 dependencies[] = panopoly_core
 dependencies[] = panopoly_pages
 dependencies[] = strongarm

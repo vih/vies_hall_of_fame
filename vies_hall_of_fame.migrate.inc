@@ -7,8 +7,8 @@
 
 class VIESHallOfFameNode extends Migration {
 
-  public function __construct() {
-    parent::__construct();
+  public function __construct(array $arguments = array()) {
+    parent::__construct($arguments);
     $this->description = t('Import hall of fame nodes.');
 
     // Create a map object for tracking the relationships between source rows
